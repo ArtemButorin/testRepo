@@ -7,34 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ACF246E9281B034800A25E13 /* A_storeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF246E8281B034800A25E13 /* A_storeApp.swift */; };
-		ACF246EB281B034800A25E13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF246EA281B034800A25E13 /* ContentView.swift */; };
-		ACF246ED281B034B00A25E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF246EC281B034B00A25E13 /* Assets.xcassets */; };
-		ACF246F0281B034B00A25E13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF246EF281B034B00A25E13 /* Preview Assets.xcassets */; };
-		ACF246F8281B06C000A25E13 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF246F7281B06C000A25E13 /* Product.swift */; };
-		ACF246FB281B1A7D00A25E13 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF246FA281B1A7D00A25E13 /* ProductCard.swift */; };
-		ACF246FD281B1C7500A25E13 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF246FC281B1C7500A25E13 /* CartButton.swift */; };
-		ACF24700281B1E7600A25E13 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF246FF281B1E7600A25E13 /* CartView.swift */; };
-		ACF24702281B202B00A25E13 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF24701281B202B00A25E13 /* CartManager.swift */; };
-		ACF24704281B274800A25E13 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF24703281B274800A25E13 /* ProductRow.swift */; };
+		ACF24712281B2FF400A25E13 /* checkMyWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF24711281B2FF400A25E13 /* checkMyWeatherApp.swift */; };
+		ACF24714281B2FF400A25E13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF24713281B2FF400A25E13 /* ContentView.swift */; };
+		ACF24716281B2FF800A25E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF24715281B2FF800A25E13 /* Assets.xcassets */; };
+		ACF24719281B2FF800A25E13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF24718281B2FF800A25E13 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ACF246E5281B034700A25E13 /* A-store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A-store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACF246E8281B034800A25E13 /* A_storeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_storeApp.swift; sourceTree = "<group>"; };
-		ACF246EA281B034800A25E13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		ACF246EC281B034B00A25E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ACF246EF281B034B00A25E13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		ACF246F7281B06C000A25E13 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		ACF246FA281B1A7D00A25E13 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
-		ACF246FC281B1C7500A25E13 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
-		ACF246FF281B1E7600A25E13 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
-		ACF24701281B202B00A25E13 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
-		ACF24703281B274800A25E13 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		ACF2470E281B2FF400A25E13 /* checkMyWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = checkMyWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF24711281B2FF400A25E13 /* checkMyWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkMyWeatherApp.swift; sourceTree = "<group>"; };
+		ACF24713281B2FF400A25E13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACF24715281B2FF800A25E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACF24718281B2FF800A25E13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ACF246E2281B034700A25E13 /* Frameworks */ = {
+		ACF2470B281B2FF400A25E13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,107 +32,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ACF246DC281B034700A25E13 = {
+		ACF24705281B2FF400A25E13 = {
 			isa = PBXGroup;
 			children = (
-				ACF246E7281B034800A25E13 /* A-store */,
-				ACF246E6281B034700A25E13 /* Products */,
+				ACF24710281B2FF400A25E13 /* checkMyWeather */,
+				ACF2470F281B2FF400A25E13 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ACF246E6281B034700A25E13 /* Products */ = {
+		ACF2470F281B2FF400A25E13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACF246E5281B034700A25E13 /* A-store.app */,
+				ACF2470E281B2FF400A25E13 /* checkMyWeather.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ACF246E7281B034800A25E13 /* A-store */ = {
+		ACF24710281B2FF400A25E13 /* checkMyWeather */ = {
 			isa = PBXGroup;
 			children = (
-				ACF246E8281B034800A25E13 /* A_storeApp.swift */,
-				ACF24701281B202B00A25E13 /* CartManager.swift */,
-				ACF246F6281B067100A25E13 /* Models */,
-				ACF246FE281B1E5700A25E13 /* Views */,
-				ACF246F9281B1A5600A25E13 /* Components */,
-				ACF246EC281B034B00A25E13 /* Assets.xcassets */,
-				ACF246EE281B034B00A25E13 /* Preview Content */,
+				ACF24711281B2FF400A25E13 /* checkMyWeatherApp.swift */,
+				ACF24713281B2FF400A25E13 /* ContentView.swift */,
+				ACF24715281B2FF800A25E13 /* Assets.xcassets */,
+				ACF24717281B2FF800A25E13 /* Preview Content */,
 			);
-			path = "A-store";
+			path = checkMyWeather;
 			sourceTree = "<group>";
 		};
-		ACF246EE281B034B00A25E13 /* Preview Content */ = {
+		ACF24717281B2FF800A25E13 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				ACF246EF281B034B00A25E13 /* Preview Assets.xcassets */,
+				ACF24718281B2FF800A25E13 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		ACF246F6281B067100A25E13 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				ACF246F7281B06C000A25E13 /* Product.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		ACF246F9281B1A5600A25E13 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				ACF246FA281B1A7D00A25E13 /* ProductCard.swift */,
-				ACF246FC281B1C7500A25E13 /* CartButton.swift */,
-				ACF24703281B274800A25E13 /* ProductRow.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		ACF246FE281B1E5700A25E13 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				ACF246EA281B034800A25E13 /* ContentView.swift */,
-				ACF246FF281B1E7600A25E13 /* CartView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ACF246E4281B034700A25E13 /* A-store */ = {
+		ACF2470D281B2FF400A25E13 /* checkMyWeather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACF246F3281B034B00A25E13 /* Build configuration list for PBXNativeTarget "A-store" */;
+			buildConfigurationList = ACF2471C281B2FF800A25E13 /* Build configuration list for PBXNativeTarget "checkMyWeather" */;
 			buildPhases = (
-				ACF246E1281B034700A25E13 /* Sources */,
-				ACF246E2281B034700A25E13 /* Frameworks */,
-				ACF246E3281B034700A25E13 /* Resources */,
+				ACF2470A281B2FF400A25E13 /* Sources */,
+				ACF2470B281B2FF400A25E13 /* Frameworks */,
+				ACF2470C281B2FF400A25E13 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "A-store";
-			productName = "A-store";
-			productReference = ACF246E5281B034700A25E13 /* A-store.app */;
+			name = checkMyWeather;
+			productName = checkMyWeather;
+			productReference = ACF2470E281B2FF400A25E13 /* checkMyWeather.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ACF246DD281B034700A25E13 /* Project object */ = {
+		ACF24706281B2FF400A25E13 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					ACF246E4281B034700A25E13 = {
+					ACF2470D281B2FF400A25E13 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
 			};
-			buildConfigurationList = ACF246E0281B034700A25E13 /* Build configuration list for PBXProject "A-store" */;
+			buildConfigurationList = ACF24709281B2FF400A25E13 /* Build configuration list for PBXProject "checkMyWeather" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -152,48 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = ACF246DC281B034700A25E13;
-			productRefGroup = ACF246E6281B034700A25E13 /* Products */;
+			mainGroup = ACF24705281B2FF400A25E13;
+			productRefGroup = ACF2470F281B2FF400A25E13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ACF246E4281B034700A25E13 /* A-store */,
+				ACF2470D281B2FF400A25E13 /* checkMyWeather */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ACF246E3281B034700A25E13 /* Resources */ = {
+		ACF2470C281B2FF400A25E13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACF246F0281B034B00A25E13 /* Preview Assets.xcassets in Resources */,
-				ACF246ED281B034B00A25E13 /* Assets.xcassets in Resources */,
+				ACF24719281B2FF800A25E13 /* Preview Assets.xcassets in Resources */,
+				ACF24716281B2FF800A25E13 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ACF246E1281B034700A25E13 /* Sources */ = {
+		ACF2470A281B2FF400A25E13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACF24700281B1E7600A25E13 /* CartView.swift in Sources */,
-				ACF246EB281B034800A25E13 /* ContentView.swift in Sources */,
-				ACF24702281B202B00A25E13 /* CartManager.swift in Sources */,
-				ACF246E9281B034800A25E13 /* A_storeApp.swift in Sources */,
-				ACF24704281B274800A25E13 /* ProductRow.swift in Sources */,
-				ACF246F8281B06C000A25E13 /* Product.swift in Sources */,
-				ACF246FB281B1A7D00A25E13 /* ProductCard.swift in Sources */,
-				ACF246FD281B1C7500A25E13 /* CartButton.swift in Sources */,
+				ACF24714281B2FF400A25E13 /* ContentView.swift in Sources */,
+				ACF24712281B2FF400A25E13 /* checkMyWeatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		ACF246F1281B034B00A25E13 /* Debug */ = {
+		ACF2471A281B2FF800A25E13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -253,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		ACF246F2281B034B00A25E13 /* Release */ = {
+		ACF2471B281B2FF800A25E13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -307,14 +259,14 @@
 			};
 			name = Release;
 		};
-		ACF246F4281B034B00A25E13 /* Debug */ = {
+		ACF2471D281B2FF800A25E13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"A-store/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"checkMyWeather/Preview Content\"";
 				DEVELOPMENT_TEAM = 55Q4P24675;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -328,7 +280,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tegone.A-store";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tegone.checkMyWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -336,14 +288,14 @@
 			};
 			name = Debug;
 		};
-		ACF246F5281B034B00A25E13 /* Release */ = {
+		ACF2471E281B2FF800A25E13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"A-store/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"checkMyWeather/Preview Content\"";
 				DEVELOPMENT_TEAM = 55Q4P24675;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -357,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tegone.A-store";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tegone.checkMyWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -368,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ACF246E0281B034700A25E13 /* Build configuration list for PBXProject "A-store" */ = {
+		ACF24709281B2FF400A25E13 /* Build configuration list for PBXProject "checkMyWeather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACF246F1281B034B00A25E13 /* Debug */,
-				ACF246F2281B034B00A25E13 /* Release */,
+				ACF2471A281B2FF800A25E13 /* Debug */,
+				ACF2471B281B2FF800A25E13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACF246F3281B034B00A25E13 /* Build configuration list for PBXNativeTarget "A-store" */ = {
+		ACF2471C281B2FF800A25E13 /* Build configuration list for PBXNativeTarget "checkMyWeather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACF246F4281B034B00A25E13 /* Debug */,
-				ACF246F5281B034B00A25E13 /* Release */,
+				ACF2471D281B2FF800A25E13 /* Debug */,
+				ACF2471E281B2FF800A25E13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ACF246DD281B034700A25E13 /* Project object */;
+	rootObject = ACF24706281B2FF400A25E13 /* Project object */;
 }
