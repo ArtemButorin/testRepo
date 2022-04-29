@@ -9,10 +9,37 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var locationManager = LocationManager()
+    var weatherManaher = WeatherManager()
+    @State var weather: ResponseBody?
     
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            
+            if let location = locationManager.location {
+                if let weather = weather {
+                    WeatherView(weather: weather)
+                } else {
+                    LoadingView()
+                        .task {
+                            do {
+                                weather = try await weatherManaher.getCurrentWeather(latitude: location.latitude, longitude: location.longitude)
+                            } catch {
+                                print("Error getting weather: \(error)")
+                            }
+                        }
+                }
+                Text("Ваши координаты: \(location.longitude), \(location.latitude)")
+            } else {
+                if locationManager.isLoading {
+                    LoadingView()
+                } else {
+                    WellcomeView()
+                        .environmentObject(locationManager)
+                }
+            }
+        }
+        .background(Color(hue: 0.656, saturation: 0.787, brightness: 0.354))
+        .preferredColorScheme(.dark)
     }
 }
 

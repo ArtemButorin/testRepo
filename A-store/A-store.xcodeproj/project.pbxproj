@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC510B8C281C5B29005CAB2D /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC510B8B281C5B29005CAB2D /* PaymentButton.swift */; };
 		ACF246E9281B034800A25E13 /* A_storeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF246E8281B034800A25E13 /* A_storeApp.swift */; };
 		ACF246EB281B034800A25E13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF246EA281B034800A25E13 /* ContentView.swift */; };
 		ACF246ED281B034B00A25E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF246EC281B034B00A25E13 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC510B8B281C5B29005CAB2D /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
 		ACF246E5281B034700A25E13 /* A-store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A-store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF246E8281B034800A25E13 /* A_storeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_storeApp.swift; sourceTree = "<group>"; };
 		ACF246EA281B034800A25E13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				ACF246FA281B1A7D00A25E13 /* ProductCard.swift */,
 				ACF246FC281B1C7500A25E13 /* CartButton.swift */,
 				ACF24703281B274800A25E13 /* ProductRow.swift */,
+				AC510B8B281C5B29005CAB2D /* PaymentButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC510B8C281C5B29005CAB2D /* PaymentButton.swift in Sources */,
 				ACF24700281B1E7600A25E13 /* CartView.swift in Sources */,
 				ACF246EB281B034800A25E13 /* ContentView.swift in Sources */,
 				ACF24702281B202B00A25E13 /* CartManager.swift in Sources */,

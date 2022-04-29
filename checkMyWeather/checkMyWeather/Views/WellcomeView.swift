@@ -6,10 +6,31 @@
 //
 
 import SwiftUI
+import CoreLocationUI
 
 struct WellcomeView: View {
+    @EnvironmentObject var locationManager: LocationManager
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            VStack(spacing: 20) {
+                Text("Добро пожаловать в Погодку")
+                    .bold().font(.title)
+                
+                Text("Пожалуйста, разрешите доступ к Вашей геолокации, чтобы узнать погоду в Вашем районе")
+                    .padding()
+            }
+            .multilineTextAlignment(.center)
+            .padding()
+            
+            LocationButton(.shareCurrentLocation) {
+                locationManager.requestLocation()
+            }
+            .cornerRadius(30)
+            .symbolVariant(.fill)
+            .foregroundColor(.white)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 
