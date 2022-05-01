@@ -12,6 +12,6 @@ extension Text {
     func lilacTitle() -> some View {
         self.font(.title)
             .fontWeight(.heavy)
-            .foregroundColor(Color("AccentColor"))
+            .foregroundColor(.white)
     }
 }

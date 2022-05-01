@@ -18,7 +18,7 @@ struct ContentView: View {
                         .lilacTitle()
                     
                     Text("Вы уверены, что готовы проверить свои скилы?")
-                        .foregroundColor(Color("AccentColor"))
+                        .foregroundColor(.white)
                 }
                 
                 NavigationLink {
@@ -30,9 +30,11 @@ struct ContentView: View {
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .edgesIgnoringSafeArea(.all)
-            .background(Color(red: 0.984313, green: 0.929411, blue: 0.847058))
+            .background(Color("Back"))
             .navigationBarHidden(true)
+            
         }
+        
     }
 }
 

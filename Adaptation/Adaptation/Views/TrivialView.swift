@@ -31,7 +31,7 @@ struct TriviaView: View {
             .foregroundColor(Color("AccentColor"))
             .padding()
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color(red: 0.9843, green: 0.9294, blue: 0.8471))
+            .background(Color("Back"))
             .navigationBarHidden(true)
         } else {
             QuestionView()

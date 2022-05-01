@@ -19,7 +19,7 @@ struct QuestionView: View {
                 Spacer()
                 
                 Text("\(triviaManager.index + 1) из \(triviaManager.length)")
-                    .foregroundColor(Color("AccentColor"))
+                    .foregroundColor(.white)
                     .fontWeight(.heavy)
             }
             
@@ -49,7 +49,8 @@ struct QuestionView: View {
         }
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color(red: 0.984313, green: 0.929411, blue: 0.847058))
+        .background(Color("Back"))
+        .navigationBarHidden(true)
     }
 }
 
