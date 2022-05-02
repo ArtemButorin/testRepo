@@ -11,30 +11,28 @@ struct ContentView: View {
     @StateObject var triviaManager = TrivialManager()
     
     var body: some View {
-        NavigationView {
-            VStack(spacing: 40) {
-                VStack(spacing: 20) {
-                    Text("Omega Game")
-                        .lilacTitle()
-                    
-                    Text("Вы уверены, что готовы проверить свои скилы?")
-                        .foregroundColor(.white)
+        TabView {
+            StoryView()
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("Квест")
                 }
-                
-                NavigationLink {
-                    TriviaView()
-                        .environmentObject(triviaManager)
-                } label: {
-                    PrimaryButton(text: "Поехали!")
+            MapView()
+                .tabItem {
+                    Image(systemName: "map")
+                    Text("Карта")
                 }
-            }
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .edgesIgnoringSafeArea(.all)
-            .background(Color("Back"))
-            .navigationBarHidden(true)
-            
+            NewsView()
+                .tabItem {
+                    Image(systemName: "star")
+                    Text("Новости")
+                }
+            ChatView()
+                .tabItem {
+                    Image(systemName: "message")
+                    Text("Чат-бот")
+                }
         }
-        
     }
 }
 

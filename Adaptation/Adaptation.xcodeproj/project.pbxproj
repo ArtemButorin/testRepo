@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC1C8CF6281E91A20003BCC9 /* QuestionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C8CF5281E91A20003BCC9 /* QuestionButton.swift */; };
+		AC1C8CF8281E99E00003BCC9 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C8CF7281E99E00003BCC9 /* StoryView.swift */; };
+		AC1C8CFA281EFB4D0003BCC9 /* QuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C8CF9281EFB4D0003BCC9 /* QuestView.swift */; };
+		AC1C8CFE281FD08A0003BCC9 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C8CFD281FD08A0003BCC9 /* ChatView.swift */; };
+		AC1C8D00281FD2940003BCC9 /* BotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C8CFF281FD2940003BCC9 /* BotResponse.swift */; };
+		AC1C8D02282016550003BCC9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C8D01282016550003BCC9 /* MapView.swift */; };
+		AC1C8D04282017110003BCC9 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C8D03282017110003BCC9 /* NewsView.swift */; };
 		AC510B9A281D38CB005CAB2D /* AdaptationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC510B99281D38CB005CAB2D /* AdaptationApp.swift */; };
 		AC510B9C281D38CB005CAB2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC510B9B281D38CB005CAB2D /* ContentView.swift */; };
 		AC510B9E281D38D1005CAB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC510B9D281D38D1005CAB2D /* Assets.xcassets */; };
@@ -23,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC1C8CF5281E91A20003BCC9 /* QuestionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionButton.swift; sourceTree = "<group>"; };
+		AC1C8CF7281E99E00003BCC9 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		AC1C8CF9281EFB4D0003BCC9 /* QuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestView.swift; sourceTree = "<group>"; };
+		AC1C8CFD281FD08A0003BCC9 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		AC1C8CFF281FD2940003BCC9 /* BotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotResponse.swift; sourceTree = "<group>"; };
+		AC1C8D01282016550003BCC9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		AC1C8D03282017110003BCC9 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		AC510B96281D38CA005CAB2D /* Adaptation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adaptation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC510B99281D38CB005CAB2D /* AdaptationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptationApp.swift; sourceTree = "<group>"; };
 		AC510B9B281D38CB005CAB2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +109,7 @@
 				AC510BA8281D3A16005CAB2D /* PrimaryButton.swift */,
 				AC510BB0281D4A22005CAB2D /* ProgressBar.swift */,
 				AC510BB7281D515D005CAB2D /* AnswerRow.swift */,
+				AC1C8CF5281E91A20003BCC9 /* QuestionButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -103,8 +118,13 @@
 			isa = PBXGroup;
 			children = (
 				AC510B9B281D38CB005CAB2D /* ContentView.swift */,
+				AC1C8CF9281EFB4D0003BCC9 /* QuestView.swift */,
 				AC510BAD281D486E005CAB2D /* QuestionView.swift */,
 				AC510BB9281D5667005CAB2D /* TrivialView.swift */,
+				AC1C8CF7281E99E00003BCC9 /* StoryView.swift */,
+				AC1C8CFD281FD08A0003BCC9 /* ChatView.swift */,
+				AC1C8D01282016550003BCC9 /* MapView.swift */,
+				AC1C8D03282017110003BCC9 /* NewsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,6 +134,7 @@
 			children = (
 				AC510BB3281D50BB005CAB2D /* Answer.swift */,
 				AC510BBB281DAED2005CAB2D /* Trivia.swift */,
+				AC1C8CFF281FD2940003BCC9 /* BotResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -188,17 +209,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1C8D00281FD2940003BCC9 /* BotResponse.swift in Sources */,
 				AC510BBA281D5667005CAB2D /* TrivialView.swift in Sources */,
 				AC510BAE281D486E005CAB2D /* QuestionView.swift in Sources */,
+				AC1C8D04282017110003BCC9 /* NewsView.swift in Sources */,
 				AC510BBC281DAED3005CAB2D /* Trivia.swift in Sources */,
+				AC1C8CF6281E91A20003BCC9 /* QuestionButton.swift in Sources */,
 				AC510BA9281D3A16005CAB2D /* PrimaryButton.swift in Sources */,
 				AC510BB8281D515D005CAB2D /* AnswerRow.swift in Sources */,
 				AC510BBE281DB78C005CAB2D /* TrivialManager.swift in Sources */,
+				AC1C8CFE281FD08A0003BCC9 /* ChatView.swift in Sources */,
+				AC1C8D02282016550003BCC9 /* MapView.swift in Sources */,
 				AC510B9C281D38CB005CAB2D /* ContentView.swift in Sources */,
 				AC510BB4281D50BB005CAB2D /* Answer.swift in Sources */,
+				AC1C8CF8281E99E00003BCC9 /* StoryView.swift in Sources */,
 				AC510B9A281D38CB005CAB2D /* AdaptationApp.swift in Sources */,
 				AC510BB1281D4A22005CAB2D /* ProgressBar.swift in Sources */,
 				AC510BAC281D47BD005CAB2D /* Extansions.swift in Sources */,
+				AC1C8CFA281EFB4D0003BCC9 /* QuestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

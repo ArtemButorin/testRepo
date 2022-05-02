@@ -29,7 +29,7 @@ struct QuestionView: View {
                 Text(triviaManager.question)
                     .font(.system(size: 20))
                     .bold()
-                    .foregroundColor(.gray)
+                    .foregroundColor(Color("AccentColor"))
                 
                 ForEach(triviaManager.answerChoises, id: \.id) { answer in
                     AnswerRow(answer: answer)

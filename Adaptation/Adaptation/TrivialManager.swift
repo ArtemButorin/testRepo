@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 class TrivialManager: ObservableObject {
-    private(set) var trivia: [Trivia.Result] = []
+    @Published private(set) var trivia: [Trivia.Result] = []
     @Published private(set) var length = 0
     @Published private(set) var index = 0
     @Published private(set) var reachedEnd = false
@@ -81,4 +81,10 @@ class TrivialManager: ObservableObject {
             score += 1
         }
     }
+    
+//    func endQuest() {
+//        if index == length - 1 {
+//             = true
+//        }
+//    }
 }
