@@ -13,7 +13,11 @@
 		AC1C8CFE281FD08A0003BCC9 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C8CFD281FD08A0003BCC9 /* ChatView.swift */; };
 		AC1C8D00281FD2940003BCC9 /* BotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C8CFF281FD2940003BCC9 /* BotResponse.swift */; };
 		AC1C8D02282016550003BCC9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C8D01282016550003BCC9 /* MapView.swift */; };
-		AC1C8D04282017110003BCC9 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C8D03282017110003BCC9 /* NewsView.swift */; };
+		AC1C8D04282017110003BCC9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C8D03282017110003BCC9 /* ListView.swift */; };
+		AC1C8D06282071BE0003BCC9 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C8D05282071BE0003BCC9 /* News.swift */; };
+		AC1C8D0828208E340003BCC9 /* NewsArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C8D0728208E340003BCC9 /* NewsArticle.swift */; };
+		AC1C8D0B282091410003BCC9 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = AC1C8D0A282091410003BCC9 /* CachedAsyncImage */; };
+		AC1C8D0D28209B3F0003BCC9 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C8D0C28209B3F0003BCC9 /* NewsView.swift */; };
 		AC510B9A281D38CB005CAB2D /* AdaptationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC510B99281D38CB005CAB2D /* AdaptationApp.swift */; };
 		AC510B9C281D38CB005CAB2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC510B9B281D38CB005CAB2D /* ContentView.swift */; };
 		AC510B9E281D38D1005CAB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC510B9D281D38D1005CAB2D /* Assets.xcassets */; };
@@ -36,7 +40,10 @@
 		AC1C8CFD281FD08A0003BCC9 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		AC1C8CFF281FD2940003BCC9 /* BotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotResponse.swift; sourceTree = "<group>"; };
 		AC1C8D01282016550003BCC9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		AC1C8D03282017110003BCC9 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		AC1C8D03282017110003BCC9 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		AC1C8D05282071BE0003BCC9 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		AC1C8D0728208E340003BCC9 /* NewsArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticle.swift; sourceTree = "<group>"; };
+		AC1C8D0C28209B3F0003BCC9 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		AC510B96281D38CA005CAB2D /* Adaptation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adaptation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC510B99281D38CB005CAB2D /* AdaptationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptationApp.swift; sourceTree = "<group>"; };
 		AC510B9B281D38CB005CAB2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1C8D0B282091410003BCC9 /* CachedAsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +132,9 @@
 				AC1C8CF7281E99E00003BCC9 /* StoryView.swift */,
 				AC1C8CFD281FD08A0003BCC9 /* ChatView.swift */,
 				AC1C8D01282016550003BCC9 /* MapView.swift */,
-				AC1C8D03282017110003BCC9 /* NewsView.swift */,
+				AC1C8D03282017110003BCC9 /* ListView.swift */,
+				AC1C8D0C28209B3F0003BCC9 /* NewsView.swift */,
+				AC1C8D0728208E340003BCC9 /* NewsArticle.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -133,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				AC510BB3281D50BB005CAB2D /* Answer.swift */,
+				AC1C8D05282071BE0003BCC9 /* News.swift */,
 				AC510BBB281DAED2005CAB2D /* Trivia.swift */,
 				AC1C8CFF281FD2940003BCC9 /* BotResponse.swift */,
 			);
@@ -155,6 +166,9 @@
 			dependencies = (
 			);
 			name = Adaptation;
+			packageProductDependencies = (
+				AC1C8D0A282091410003BCC9 /* CachedAsyncImage */,
+			);
 			productName = Adaptation;
 			productReference = AC510B96281D38CA005CAB2D /* Adaptation.app */;
 			productType = "com.apple.product-type.application";
@@ -183,6 +197,9 @@
 				Base,
 			);
 			mainGroup = AC510B8D281D38CA005CAB2D;
+			packageReferences = (
+				AC1C8D09282091410003BCC9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
 			productRefGroup = AC510B97281D38CA005CAB2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -212,15 +229,18 @@
 				AC1C8D00281FD2940003BCC9 /* BotResponse.swift in Sources */,
 				AC510BBA281D5667005CAB2D /* TrivialView.swift in Sources */,
 				AC510BAE281D486E005CAB2D /* QuestionView.swift in Sources */,
-				AC1C8D04282017110003BCC9 /* NewsView.swift in Sources */,
+				AC1C8D0D28209B3F0003BCC9 /* NewsView.swift in Sources */,
+				AC1C8D04282017110003BCC9 /* ListView.swift in Sources */,
 				AC510BBC281DAED3005CAB2D /* Trivia.swift in Sources */,
 				AC1C8CF6281E91A20003BCC9 /* QuestionButton.swift in Sources */,
+				AC1C8D06282071BE0003BCC9 /* News.swift in Sources */,
 				AC510BA9281D3A16005CAB2D /* PrimaryButton.swift in Sources */,
 				AC510BB8281D515D005CAB2D /* AnswerRow.swift in Sources */,
 				AC510BBE281DB78C005CAB2D /* TrivialManager.swift in Sources */,
 				AC1C8CFE281FD08A0003BCC9 /* ChatView.swift in Sources */,
 				AC1C8D02282016550003BCC9 /* MapView.swift in Sources */,
 				AC510B9C281D38CB005CAB2D /* ContentView.swift in Sources */,
+				AC1C8D0828208E340003BCC9 /* NewsArticle.swift in Sources */,
 				AC510BB4281D50BB005CAB2D /* Answer.swift in Sources */,
 				AC1C8CF8281E99E00003BCC9 /* StoryView.swift in Sources */,
 				AC510B9A281D38CB005CAB2D /* AdaptationApp.swift in Sources */,
@@ -427,6 +447,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC1C8D09282091410003BCC9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC1C8D0A282091410003BCC9 /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC1C8D09282091410003BCC9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC510B8E281D38CA005CAB2D /* Project object */;
 }

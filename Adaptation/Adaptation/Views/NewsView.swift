@@ -2,14 +2,33 @@
 //  NewsView.swift
 //  Adaptation
 //
-//  Created by Артем Буторин on 02.05.2022.
+//  Created by Артем Буторин on 03.05.2022.
 //
 
 import SwiftUI
 
 struct NewsView: View {
+    @StateObject var data = NewsAPI()
+    @State private var opac = 0.0
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                ListView()
+                    .opacity(opac)
+                    
+            }
+            .background(Color("Back"))
+            .navigationBarHidden(true)
+            .environmentObject(data)
+            .onAppear {
+                data.getData()
+                withAnimation(.easeIn(duration: 2)) {
+                    opac = 1.0
+                }
+            }
+        }
+        
     }
 }
 
