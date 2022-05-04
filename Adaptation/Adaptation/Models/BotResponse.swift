@@ -10,19 +10,19 @@ import Foundation
 func getBotResponse(message: String) -> String {
     let tempMessage = message.lowercased()
     
-    if tempMessage.contains("Привет") {
+    if tempMessage.contains("привет") {
         return "Привет"
     } else if tempMessage.contains("hello") {
         return "Хэллоу"
-    } else if tempMessage.contains("Как дела") {
+    } else if tempMessage.contains("как дела") {
         return "Я отлично, а ты как?"
-    } else if tempMessage.contains("Пока") {
+    } else if tempMessage.contains("пока") {
         return "Пока!"
-    } else if tempMessage.contains("Поговорим") {
+    } else if tempMessage.contains("поговорим") {
         return "Давай пообщаемся!"
-    } else if tempMessage.contains("Прикольно") {
+    } else if tempMessage.contains("прикольно") {
         return "Жиза!"
-    } else if tempMessage.contains("Что делаешь") {
+    } else if tempMessage.contains("что делаешь") {
         return "С тобой разговариваю"
     } else {
         return "Извините, тут я не могу ничего ответить, так как у меня довольно маленький словарный запас"
